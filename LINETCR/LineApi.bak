@@ -54,9 +54,9 @@ class LINE:
     self.obs_token = self.channel.obs_token
     self.refresh_token = self.channel.refresh_token
     self._headers = {
-              'X-Line-Application': 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0',
+              'X-Line-Application': 'CHROMEOS\x091.4.17\x90Chrome_OS\x901',
               'X-Line-Access': self.authToken,
-              'User-Agent': 'Line/8.0.0'
+              'User-Agent': 'Line/7.18.0'
                }
 
 
@@ -446,7 +446,7 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("INNE")
+      print("YD-BOT")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)
