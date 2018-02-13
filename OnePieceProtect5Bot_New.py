@@ -1447,11 +1447,7 @@ def bot(op):
                 if wait["timeline"] == True: md+="║[•]Share ✔\n"
                 else: md+="║[•]Share ✖\n"
                 if wait["Sambutan"] == True: md+="║[•]Sambutan ✔\n"
-                else: md+="║[•]Sambutan ✖\n"
-                if wait["simiSimi"] == True: md+="║[•]Simi ✔\n"
-                else: md+="║[•]Simi ✖\n"
-                if wait["Sider"] == True: md+="║[•]Sider ✔\n"
-                else: md+="║[•]Sider ✖\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n║⭐૦Ո૯ ƿɿ૯८૯ ੮૯คɱ⭐\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n╚═══════════════"
+                else: md+="║[•]Sambutan ✖\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n║One Piece Protect\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n╚═══════════════"
                 ka.sendText(msg.to,md)
               else:
                 ka.sendText(msg.to,"This Command Only For Admin & Owner")
