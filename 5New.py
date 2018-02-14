@@ -12,73 +12,85 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,string,ast,os,subprocess,six,ast,pytz,requests,tempfile
 
 ka = LINETCR.LINE()
-ka.login(token='Token_Kamu')
+ka.login(token='MAN')
 ka.loginResult()
 
 kb = LINETCR.LINE()
-kb.login(token='Token_Kamu')
+kb.login(token='MAN')
 kb.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token='Token_Kamu')
+kc.login(token='MAN')
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token='Token_Kamu')
+kd.login(token='MAN')
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token='Token_Kamu')
+ke.login(token='MAN')
 ke.loginResult()
 
 backup = LINETCR.LINE()
-backup.login(token='Token_Kamu')
+backup.login(token='man')
 backup.loginResult()
 
 print "Sukses All Login"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""
-╔════════
-╠    M E N U
-╠════════
-╠ Help Publik
-╠ Help Creator
-╠ Help Setting
-╠ Help Media
-╠════════
-╚════════
+helpMessage ="""Thailand creator :  SELFBOT_MAN_PC
+
+ ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
+ ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
+ ║͜͡☆➣ Help Publik
+ ║͜͡☆➣ Help Creator
+ ║͜͡☆➣ Help Setting
+ ║͜͡☆➣ Help Media
+ ╰══════════╬♠️╬══════════╯
+ ╭══════════╬♥╬══════════╮
+ ║  ♨️รับทำเชลบอท [SELFBOT] กันรัน
+ ║͜͡☆➣ [ชุดบอทป้องกัน]  Protect
+ ║͜͡☆➣ [ชุดบอทส่วนตัว]  Kicker
+ ║͜͡☆➣ [บอทแท๊ก,ทั้งกลุ่ม] Mention all
+ ║͜͡☆➣ [ชุดบอทบิน] ☞มีครบทุกฟังชั่น
+ ╰══════════╬♠️╬══════════╯ 
+──────┅═ই۝ई═┅──────
+ สอบถามรายละเอียดเพิ่มเติม..  Link⤵️
+http://line.me/ti/p/~1ove..neverdie
+──────┅═ই۝ई═┅────── 
 """
 
-creatorMessage ="""
-╔════════
-╠   A D M I N
-╠════════
-╠steal
-╠/invitemeto:
-╠Leave all group
-╠Clear
-╠Ourl/Curl
-╠Status
-╠Tagall
-╠Lurking
-╠Gurl
-╠Masuk/Keluar
-╠Banlist
-╠Clear ban
-╠Bot restart
-╠Glist
-╠Glistmid
-╠Removechat
-╠════════
-╚════════
+creatorMessage ="""HELP_2
+ ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
+ ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
+ ╰══════════╬♠️╬══════════╯
+ ╭══════════╬♥╬══════════╮
+ ║͜͡☆➣ steal
+ ║͜͡☆➣ /invitemeto:
+ ║͜͡☆➣ Leave all group
+ ║͜͡☆➣ Clear
+ ║͜͡☆➣ Ourl/Curl
+ ║͜͡☆➣ Status
+ ║͜͡☆➣ Tagall
+ ║͜͡☆➣ Lurking
+ ║͜͡☆➣ Gurl
+ ║͜͡☆➣ Masuk/Keluar
+ ║͜͡☆➣ Banlist
+ ║͜͡☆➣ Clear ban
+ ║͜͡☆➣ Bot restart
+ ║͜͡☆➣ Glist
+ ║͜͡☆➣ Glistmid
+ ║͜͡☆➣ Removechat
+ ╰══════════╬♠️╬══════════╯
 """
 
-setMessage ="""
-╔════════
+setMessage ="""HELP_3
+ ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
+ ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
+ ╰══════════╬♠️╬══════════╯
+ ╭══════════╬♥╬══════════╮
 ╠  S E T I N G
-╠════════
 ╠Purge on/off
 ╠Cancel on/off
 ╠Qr on/off
@@ -94,13 +106,14 @@ setMessage ="""
 ╠Admin remove @
 ╠Sambutan on/off
 ╠Cancelinvite on/off
-╠════════
-╚════════
+ ╰══════════╬♠️╬══════════╯
 """
-publikMessage ="""
-╔════════
+publikMessage ="""HELP_4
+ ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
+ ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
+ ╰══════════╬♠️╬══════════╯
+ ╭══════════╬♥╬══════════╮
 ╠  P U B L I K
-╠════════
 ╠Me
 ╠Creator
 ╠Ginfo
@@ -109,13 +122,14 @@ publikMessage ="""
 ╠Absen
 ╠Respon
 ╠Sp/Speed
-╠════════
-╚════════
+ ╰══════════╬♠️╬══════════╯
 """
-mediaMessage ="""
-╔════════
+mediaMessage ="""HELP_5
+ ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
+ ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
+ ╰══════════╬♠️╬══════════╯
+ ╭══════════╬♥╬══════════╮
 ╠   M E D I A
-╠════════
 ╠/musik
 ╠/lirik
 ╠Ig:
@@ -136,9 +150,9 @@ mediaMessage ="""
 ╠Id@en
 ╠SearchID:
 ╠Runtime
-╠════════
-╚════════
+ ╰══════════╬♠️╬══════════╯
 """
+
 KAC=[ka,kb,kc,kd,ke]
 mid = ka.getProfile().mid
 Amid = kb.getProfile().mid
@@ -197,7 +211,7 @@ wait = {
     "autoAdd":True,
     "lang":"JP",
     "comment1":"😴Auto Like By D̶o̶n̶i̶S̶a̶t̶r̶i̶a̶😭",
-    "comment2":"😴Auto Like By D̶o̶n̶i̶S̶a̶t̶r̶i̶a̶😭",
+    "comment2":"😴Auto Like By 😭",
     "comment3":"😴Auto Like By D̶o̶n̶i̶S̶a̶t̶r̶i̶a̶😭",
     "comment4":"😴Auto Like By D̶o̶n̶i̶S̶a̶t̶r̶i̶a̶😭",
     "comment5":"😴Auto Like By D̶o̶n̶i̶S̶a̶t̶r̶i̶a̶😭\nhttp://line.me/ti/p/~doninoob",
