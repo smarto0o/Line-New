@@ -17,10 +17,11 @@ class Channel:
     host = "gd2.line.naver.jp"
     http_query_path = "/S4"
     channel_query_path = "/CH4"
-
-    UA = "Line/6.0.0 iPad4,1 9.0.2"
-    LA = "DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0"
-
+    #SELFBOT_MAN_PC
+    UA = "Line/8.0.1"
+    LA = "DESKTOPMAC\t10.10.2-YOSEMITE-x64\tMAC 4.5.0"
+    #UA = "Line/6.0.0 iPad4,1 9.0.2"
+    #LA = "DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0"
     authToken = None
     mid = None
     channel_access_token = None
