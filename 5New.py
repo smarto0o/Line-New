@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-#DoniSatriaBot
-
+#SELFBOT_MAN_PC
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
@@ -35,7 +34,7 @@ backup = LINETCR.LINE()
 backup.login(token='man')
 backup.loginResult()
 
-print "Sukses All Login"
+print "Login SELFBOT_MAN_PC"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -54,14 +53,14 @@ helpMessage ="""Thailand creator :  SELFBOT_MAN_PC
  ║͜͡☆➣ [ชุดบอทส่วนตัว]  Kicker
  ║͜͡☆➣ [บอทแท๊ก,ทั้งกลุ่ม] Mention all
  ║͜͡☆➣ [ชุดบอทบิน] ☞มีครบทุกฟังชั่น
- ╰══════════╬♠️╬══════════╯ 
+ ╰══════════╬💀╬══════════╯ 
 ──────┅═ই۝ई═┅──────
  สอบถามรายละเอียดเพิ่มเติม..  Link⤵️
 http://line.me/ti/p/~1ove..neverdie
 ──────┅═ই۝ई═┅────── 
 """
 
-creatorMessage ="""HELP_2
+creatorMessage ="""HELP_creator
  ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
  ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
  ╰══════════╬♠️╬══════════╯
@@ -82,78 +81,77 @@ creatorMessage ="""HELP_2
  ║͜͡☆➣ Glist
  ║͜͡☆➣ Glistmid
  ║͜͡☆➣ Removechat
- ╰══════════╬♠️╬══════════╯
+ ╰══════════╬💀╬══════════╯
 """
 
-setMessage ="""HELP_3
+setMessage ="""HELP_settings
  ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
  ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
  ╰══════════╬♠️╬══════════╯
  ╭══════════╬♥╬══════════╮
-╠  S E T I N G
-╠Purge on/off
-╠Cancel on/off
-╠Qr on/off
-╠Contact on/off
-╠Join on/off
-╠Leave on/off
-╠Share on/off
-╠Simisimi on/off
-╠Sider on/off
-╠Lurking on/off
-╠Lurking reset
-╠Admin add @
-╠Admin remove @
-╠Sambutan on/off
-╠Cancelinvite on/off
- ╰══════════╬♠️╬══════════╯
-"""
-publikMessage ="""HELP_4
- ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
- ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
- ╰══════════╬♠️╬══════════╯
- ╭══════════╬♥╬══════════╮
-╠  P U B L I K
-╠Me
-╠Creator
-╠Ginfo
-╠Adminlist
-╠List group
-╠Absen
-╠Respon
-╠Sp/Speed
- ╰══════════╬♠️╬══════════╯
-"""
-mediaMessage ="""HELP_5
- ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
- ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
- ╰══════════╬♠️╬══════════╯
- ╭══════════╬♥╬══════════╮
-╠   M E D I A
-╠/musik
-╠/lirik
-╠Ig:
-╠Youtubelink:
-╠Say-id
-╠Say-en
-╠Say welcome
-╠Playstore
-╠/apakah
-╠/hari
-╠/berapa
-╠/berapakah
-╠/kapan
-╠Image
-╠Tr-en
-╠Tr-id
-╠En@id
-╠Id@en
-╠SearchID:
-╠Runtime
- ╰══════════╬♠️╬══════════╯
+ ║͜͡☆➣ Purge on/off
+ ║͜͡☆➣ Cancel on/off
+ ║͜͡☆➣ Qr on/off
+ ║͜͡☆➣ Contact on/off
+ ║͜͡☆➣ Join on/off
+ ║͜͡☆➣ Leave on/off
+ ║͜͡☆➣ Share on/off
+ ║͜͡☆➣ Simisimi on/off
+ ║͜͡☆➣ Sider on/off
+ ║͜͡☆➣ Lurking on/off
+ ║͜͡☆➣ Lurking reset
+ ║͜͡☆➣ Admin add @
+ ║͜͡☆➣ Admin remove @
+ ║͜͡☆➣ Sambutan on/off
+ ║͜͡☆➣ Cancelinvite on/off
+ ╰══════════╬💀╬══════════╯
 """
 
-KAC=[ka,kb,kc,kd,ke]
+publikMessage ="""HELP_publik
+ ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
+ ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
+ ╰══════════╬♠️╬══════════╯
+ ╭══════════╬♥╬══════════╮
+ ║͜͡☆➣ Me
+ ║͜͡☆➣ Creator
+ ║͜͡☆➣ Ginfo
+ ║͜͡☆➣ Adminlist
+ ║͜͡☆➣ List group
+ ║͜͡☆➣ Absen
+ ║͜͡☆➣ Respon
+ ║͜͡☆➣ Sp/Speed
+ ╰══════════╬💀╬══════════╯
+"""
+
+mediaMessage ="""HELP_media
+ ╭═════════╬[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]╬═════════╮
+ ║ ♨️ SELFBOT_MAN_PC_HELP ♨️
+ ╰══════════╬♠️╬══════════╯
+ ╭══════════╬♥╬══════════╮
+ ║͜͡☆➣ /musik
+ ║͜͡☆➣ /lirik
+ ║͜͡☆➣ Ig:
+ ║͜͡☆➣ Youtubelink:
+ ║͜͡☆➣ Say-id
+ ║͜͡☆➣ Say-en
+ ║͜͡☆➣ Say welcome
+ ║͜͡☆➣ Playstore
+ ║͜͡☆➣ /apakah
+ ║͜͡☆➣ /hari
+ ║͜͡☆➣ /berapa
+ ║͜͡☆➣ /berapakah
+ ║͜͡☆➣ /kapan
+ ║͜͡☆➣ Image
+ ║͜͡☆➣ Tr-en
+ ║͜͡☆➣ Tr-id
+ ║͜͡☆➣ En@id
+ ║͜͡☆➣ Id@en
+ ║͜͡☆➣ SearchID:
+ ║͜͡☆➣ Runtime
+ ╰══════════╬💀╬══════════╯
+"""
+
+KAC = [ka,kb,kc,kd,ke]
 mid = ka.getProfile().mid
 Amid = kb.getProfile().mid
 Bmid = kc.getProfile().mid
@@ -161,8 +159,8 @@ Cmid = kd.getProfile().mid
 Dmid = ke.getProfile().mid
 Emid = backup.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-owner=["u3f2f024bfb418f735157dc53ea8ce64e"]
-admin=["u3f2f024bfb418f735157dc53ea8ce64e"]
+owner=["SELFBOT_MAN_PC"]
+admin=["ud24af63fd62d14c3bf8f719df80c3745"]
 
 contact = ka.getProfile()
 backup1 = ka.getProfile()
@@ -193,7 +191,7 @@ backup5 = ke.getProfile()
 backup5.displayName = contact.displayName
 backup5.statusMessage = contact.statusMessage                        
 backup5.pictureStatus = contact.pictureStatus
-#==============================================================================#
+#===========================================#
 responsename = ka.getProfile().displayName
 responsename2 = kb.getProfile().displayName
 responsename3 = kc.getProfile().displayName
@@ -203,33 +201,33 @@ responsename5 = ke.getProfile().displayName
 wait = {
     "contact":False,
     "Bot":{},
-    "autoJoin":True,
-    "autoCancel":{"on":False,"members":1},
+    "autoJoin":False,
+    "autoCancel":{"on":True,"members":1},
     "leaveRoom":True,
     "timeline":True,
     "Timeline":True,
-    "autoAdd":True,
+    "autoAdd":False,
     "lang":"JP",
-    "comment1":"😴Auto Like By D̶o̶n̶i̶S̶a̶t̶r̶i̶a̶😭",
-    "comment2":"😴Auto Like By 😭",
-    "comment3":"😴Auto Like By D̶o̶n̶i̶S̶a̶t̶r̶i̶a̶😭",
-    "comment4":"😴Auto Like By D̶o̶n̶i̶S̶a̶t̶r̶i̶a̶😭",
-    "comment5":"😴Auto Like By D̶o̶n̶i̶S̶a̶t̶r̶i̶a̶😭\nhttp://line.me/ti/p/~doninoob",
+    "comment1":"👍Auto Like By SELFBOT_MAN_PC",
+    "comment2":"👍Auto Like By SELFBOT_MAN_PC",
+    "comment3":"👍Auto Like By SELFBOT_MAN_PC",
+    "comment4":"👍Auto Like By SELFBOT_MAN_PC",
+    "comment5":"👍Auto Like By SELFBOT_MAN_PC \n(รับทำเชลบอทกันรัน) บอทป้องกัน บอทแท๊ก",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
     "wblacklist":False,
     "dblacklist":False,
-    "Protectgr":True,
-    "Protectjoin":True,
-    "Protectcancl":True,
-    "Protectcancel":True,
-    "protectionOn":True,
+    "Protectgr":False,
+    "Protectjoin":False,
+    "Protectcancl":False,
+    "Protectcancel":False,
+    "protectionOn":False,
     "atjointicket":True,
     "blacklist":{},
     "steal":{},
-    "message":"Thx For Add Me 😳\nJika Butuh Bantuan\nhttp://line.me/ti/p/~doninoob",    
+    "message":"Thank For Add Me.. \n\n คุยเรื่องบอทปรึกษาได้ครับ มีครบทุกฟังชั่น\nhttp://line.me/ti/p/~1ove..neverdie \n(รับติดตั้งบอทSiri V10 และ รับทำเชลบอทกันรัน) \nเปิดสอนเขียนโปรแกรมบอท ชุดบอทป้องกัน บอทแท๊ก บอทแจ้งเตือนและต้อนรับสมาชิกเข้ากลุ่ม \n\nสนใจทักมาสอบถามได้ครับ \nLine ID. 1ove..neverdie",
     "Sambutan":True,
     "Sider":{},
 }
@@ -1017,16 +1015,16 @@ def bot(op):
             elif msg.text in ["Key","help","Help"]:
                 ka.sendText(msg.to,helpMessage)
 
-            elif msg.text in ["Key creator","help creator","Help Creator"]:
+            elif msg.text in ["Help creator","help creator","Creator. Man"]:
                 ka.sendText(msg.to,creatorMessage)
 
-            elif msg.text in ["Key self","help self","Help Publik"]:
+            elif msg.text in ["Help self","help self","Selfbot. Man"]:
                 ka.sendText(msg.to,publikMessage)
 
-            elif msg.text in ["Key set","help set","Help Setting"]:
+            elif msg.text in ["Help set","help set","Setting. Man"]:
                 ka.sendText(msg.to,setMessage)
 
-            elif msg.text in ["Key media","help media","Help Media"]:
+            elif msg.text in ["Help media","Help media","Media. Man"]:
                 ka.sendText(msg.to,mediaMessage)
 #==============================================================================#
             elif msg.text == "Ginfo":
@@ -1058,7 +1056,7 @@ def bot(op):
 #==============================================================================#
             elif msg.text in ["Creator","Owner"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u3f2f024bfb418f735157dc53ea8ce64e'}
+                msg.contentMetadata = {'mid': 'ud24af63fd62d14c3bf8f719df80c3745'}
                 ka.sendMessage(msg)
 #==============================================================================#
             elif "Admin add @" in msg.text:
@@ -1167,12 +1165,12 @@ def bot(op):
                 ka.sendText(msg.to,"You Are Not My Boss !!!")
                 ka.sendText(msg.to,"Command Denied")
 #==============================================================================#
-            elif msg.text in ["Adminlist","adminlist"]:
+            elif msg.text in ["Adminlist","Stafflist"]:
               if admin == []:
                   ka.sendText(msg.to,"The stafflist is empty")
               else:
                   ka.sendText(msg.to,"Tunggu...")
-                  mc = "👑 Admin One Piece Bot 👑\n𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n"
+                  mc = "👑 Admin selfbot-man 👑\n𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n"
                   for mi_d in admin:
                       mc += "[★]" + ka.getContact(mi_d).displayName + "\n"
                   ka.sendText(msg.to,mc)
@@ -1183,7 +1181,7 @@ def bot(op):
                   ka.sendText(msg.to,"The Owner is empty")
               else:
                   ka.sendText(msg.to,"Tunggu...")
-                  mc = "👑 Owner One Piece Bot 👑\n𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n"
+                  mc = "👑 Owner selfbot-man 👑\n𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n"
                   for mi_d in owner:
                       mc += "[★]" + ka.getContact(mi_d).displayName + "\n"
                   ka.sendText(msg.to,mc)
@@ -1461,12 +1459,12 @@ def bot(op):
                 if wait["timeline"] == True: md+="║[•]Share ✔\n"
                 else: md+="║[•]Share ✖\n"
                 if wait["Sambutan"] == True: md+="║[•]Sambutan ✔\n"
-                else: md+="║[•]Sambutan ✖\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n║One Piece Protect\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n╚═══════════════"
+                else: md+="║[•]Sambutan ✖\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n║SELFBOT_MAN_Protect\n║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓\n╚═══════════════"
                 ka.sendText(msg.to,md)
               else:
                 ka.sendText(msg.to,"This Command Only For Admin & Owner")
 #==============================================================================#
-            elif msg.text in ["Tagall","Tag all"]:
+            elif msg.text in ["Tagall","Tag all","Mention all"]:
               if msg.from_ in owner:
                   group = ka.getGroup(msg.to)
                   nama = [contact.mid for contact in group.members]
@@ -1653,7 +1651,7 @@ def bot(op):
               else:
                 ka.sendText(msg.to,"This Command Only For Admin & Owner")
 #==============================================================================#
-            elif msg.text in ["Masuk","Bot in"]:
+            elif msg.text in ["Masuk","Bot in","Kicker"]:
               if msg.from_ in owner:
                 G = ka.getGroup(msg.to)
                 ginfo = ka.getGroup(msg.to)
@@ -1686,10 +1684,10 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = ka.getGroup(msg.to)
                     try:
-                        ke.leaveGroup(msg.to)
-                        kd.leaveGroup(msg.to)
-                        kc.leaveGroup(msg.to)
                         kb.leaveGroup(msg.to)
+                        kc.leaveGroup(msg.to)
+                        kd.leaveGroup(msg.to)
+                        ke.leaveGroup(msg.to)
                         ka.leaveGroup(msg.to)
                     except:
                         pass
@@ -1726,7 +1724,7 @@ def bot(op):
                         mc += "→" +ka.getContact(mi_d).displayName + "\n"
                     ka.sendText(msg.to,mc)
 #==============================================================================#
-            elif msg.text in ["Clear ban"]:
+            elif msg.text in ["Clear ban","Cb"]:
               if msg.from_ in owner:
                 wait["blacklist"] = {}
                 ka.sendText(msg.to,"Succes Clear Blacklist Boss")
