@@ -54,9 +54,9 @@ class LINE:
     self.obs_token = self.channel.obs_token
     self.refresh_token = self.channel.refresh_token
     self._headers = {
-              'X-Line-Application': 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0',
+              'X-Line-Application': 'DESKTOPMAC\t10.10.2-YOSEMITE-x64\tMAC 4.5.0',
               'X-Line-Access': self.authToken,
-              'User-Agent': 'Line/8.0.0'
+              'User-Agent': 'Line/8.0.1'
                }
 
 
