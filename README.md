@@ -1,3 +1,5 @@
+#SELFBOT_MAN_PC_NEW
+
 [New] Bot Saling Backup Dan Admin Di Undang Jika Ke Kick
 
 #Bot Protect Versi 5 Bot + 1 Backup
@@ -21,19 +23,17 @@ Cara Instal :
 pkg install python -y
 pkg install python2 -y
 pkg install git -y
-git clone https://github.com/DoniSatria/OnePieceProtect5Bot_New
+git clone https://github.com/selfbotman9999/SELFBOT_MAN_PC_New
 pip2 install rsa
 pip2 install thrift==0.9.3
 pip2 install requests
 Cara Menjalankan Botnya :
 
-cd OnePieceProtect5Bot_New
-python2 OnePieceProtect5Bot_New
+cd SELFBOT_MAN_PC_New
+python2 5New.py
 
-Ada Pertanyaan? Add My Line => @doninoob
+Add Me Line => 1ove..neverdie
 
-Thanks For :
+Thanks For : Indonesia @ Thailand
 
-Alfathdirk
-Farzain
-Dan Kawan² ================================ DoniSatria & One Piece Team Protect ================================
+Team SELFBOT_MAN_PROTECT
